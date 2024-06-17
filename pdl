@@ -1,0 +1,57 @@
+import pandas as pd
+
+# Load the Excel file
+file_path = 'billionaires.csv'  # Replace with your actual file name if needed
+df = pd.read_csv(file_path)
+
+# Display the first few rows of the dataframe
+print("Original DataFrame:")
+print(df.head())
+
+# Display summary statistics
+print("\nSummary Statistics:")
+print(df.describe())
+
+# Display data types and missing values
+print("\nData Types and Missing Values:")
+print(df.info())
+
+# Check for any missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+# Distribution of billionaires by country
+country_distribution = df['location.citizenship'].value_counts()
+
+print("\nDistribution of Billionaires by Country:")
+print(country_distribution.head(10))
+
+country_distribution.plot(kind='bar', figsize=(12, 6), title='Top 10 Countries by Number of Billionaires')
+
+# Age distribution of billionaires
+age_distribution = df['demographics.age']
+
+print("\nAge Distribution of Billionaires:")
+print(age_distribution.describe())
+
+age_distribution.plot(kind='hist', bins=20, figsize=(12, 6), title='Age Distribution of Billionaires')
+# Gender distribution of billionaires
+gender_distribution = df['demographics.gender'].value_counts()
+
+print("\nGender Distribution of Billionaires:")
+print(gender_distribution)
+
+gender_distribution.plot(kind='pie', figsize=(6, 6), title='Gender Distribution of Billionaires', autopct='%1.1f%%')
+# Trends of number of billionaires over the years
+yearly_trend = df['year'].value_counts().sort_index()
+
+print("\nTrends of Number of Billionaires Over the Years:")
+print(yearly_trend)
+
+yearly_trend.plot(kind='line', figsize=(12, 6), title='Trends of Number of Billionaires Over the Years')
+# Wealth distribution of billionaires
+wealth_distribution = df['wealth.worth in billions']
+
+print("\nWealth Distribution of Billionaires:")
+print(wealth_distribution.describe())
+
+wealth_distribution.plot(kind='hist', bins=20, figsize=(12, 6), title='Wealth Distribution of Billionaires')

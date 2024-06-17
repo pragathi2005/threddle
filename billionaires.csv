@@ -1,0 +1,30 @@
+name,rank,year,company.founded,company.name,company.relationship,company.sector,company.type,demographics.age,demographics.gender,location.citizenship,location.country code,location.gdp,location.region,wealth.type,wealth.worth in billions,wealth.how.category,wealth.how.from emerging,wealth.how.industry,wealth.how.inherited,wealth.how.was founder,wealth.how.was political
+Bill Gates,1,1996,1975,Microsoft,founder, Software,new,40,male,United States,USA,8.1E+12,North America,founder non-finance,18.5,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Bill Gates,1,2001,1975,Microsoft,founder, Software,new,45,male,United States,USA,1.06E+13,North America,founder non-finance,58.7,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Bill Gates,1,2014,1975,Microsoft,founder, Software,new,58,male,United States,USA,0,North America,founder non-finance,76,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Warren Buffett,2,1996,1962,Berkshire Hathaway,founder, Finance,new,65,male,United States,USA,8.1E+12,North America,founder non-finance,15,Traded Sectors,TRUE,Consumer,not inherited,TRUE,TRUE
+Warren Buffett,2,2001,1962,Berkshire Hathaway,founder, Finance,new,70,male,United States,USA,1.06E+13,North America,founder non-finance,32.3,Traded Sectors,TRUE,Consumer,not inherited,TRUE,TRUE
+Carlos Slim Helu,2,2014,1990,Telmex,founder, Communications,privatization,74,male,Mexico,MEX,0,Latin America,privatized and resources,72,Non-Traded Sectors,TRUE,Media,not inherited,TRUE,TRUE
+Oeri Hoffman and Sacher,3,1996,1896,F. Hoffmann-La Roche,,pharmaceuticals,new,0,,Switzerland,CHE,3.3E+11,Europe,inherited,13.1,New Sectors,TRUE,Technology-Medical,3rd generation,TRUE,TRUE
+Paul Allen,3,2001,1975,Microsoft,founder,technology,new,48,male,United States,USA,1.06E+13,North America,founder non-finance,30.4,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Amancio Ortega,3,2014,1975,Zara,founder,Fashion,new,77,male,Spain,ESP,0,Europe,founder non-finance,64,Non-Traded Sectors,TRUE,"Retail, Restaurant",not inherited,TRUE,TRUE
+Lee Shau Kee,4,1996,1976,Henderson Land Development,founder/chairman,real estate,new,68,male,Hong Kong,HKG,1.6E+11,East Asia,self-made finance,12.7,Financial,TRUE,Real Estate,not inherited,TRUE,TRUE
+Larry Ellison,4,2001,1977,Oracle,founder, software, new,56,male,United States,USA,1.06E+13,North America,founder non-finance,26,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Warren Buffett,4,2014,1839,Berkshire Hathaway,founder, Finance,aquired,83,male,United States,USA,0,North America,founder non-finance,58.2,Traded Sectors,TRUE,Consumer,not inherited,TRUE,TRUE
+Tsai Wan-lin,5,1996,1962,Lin Yuan Group,founder,banking and insurance,new,71,male,Taiwan,Taiwan,0,East Asia,self-made finance,12.2,Financial,TRUE,Hedge funds,not inherited,TRUE,TRUE
+Theo and Karl Albrecht,5,2001,1913,Aldi,founder,groceries,new,0,male,Germany,DEU,1.95E+12,Europe,founder non-finance,25,Non-Traded Sectors,TRUE,"Retail, Restaurant",not inherited,TRUE,TRUE
+Larry Ellison,5,2014,1977,Oracle,founder, software, new,69,male,United States,USA,0,North America,founder non-finance,48,New Sectors,TRUE,Technology-Computer,not inherited,TRUE,TRUE
+Walter Thomas and Raymond Kwok,6,1996,1963,Sun Hung Kai Properties,Relation,real estate,new,0,male,Hong Kong,HKG,1.6E+11,East Asia,inherited,11.2,Financial,TRUE,Real Estate,father,TRUE,TRUE
+Prince Alwaleed Bin Talal Alsaud,6,2001,1980,Kingdom Holding Company,founder,construction/real estate/banking,new,44,male,Saudi Arabia,SAU,1.83E+11,Middle East/North Africa,privatized and resources,20,Financial,TRUE,Money Management,not inherited,TRUE,TRUE
+Charles Koch,6,2014,1940,Koch industries,relation,  Oil refining,new,78,male,United States,USA,0,North America,inherited,40,Financial,TRUE,Diversified financial,father,TRUE,TRUE
+David Koch,6,2014,1940,Koch industries,relation, Oil refining,new,73,male,United States,USA,0,North America,inherited,40,Financial,TRUE,Diversified financial,father,TRUE,TRUE
+Li Ka-shing,7,1996,1971,Cheung king,founder,real estate,new,67,male,Hong Kong,HKG,1.6E+11,East Asia,self-made finance,10.6,Financial,TRUE,Real Estate,not inherited,TRUE,TRUE
+Jim Walton,7,2001,1962,Walmart,relation,retail, new,53,male,United States,USA,1.06E+13,North America,inherited,18.8,Non-Traded Sectors,TRUE,"Retail, Restaurant",father,TRUE,TRUE
+Yoshiaki Tsutsumi,8,1996,1894,Seibu Corporation,relation,real estate,aquired,61,male,Japan,JPN,4.71E+12,East Asia,inherited,9.2,Financial,TRUE,Real Estate,father,TRUE,TRUE
+John Walton,8,2001,1962,Walmart,relation, retail, new,55,male,United States,USA,1.06E+13,North America,inherited,18.7,Traded Sectors,TRUE,Consumer,father,TRUE,TRUE
+Sheldon Adelson,8,2014,1952,Las Vegas Sands,founder, casinos, acquired,80,male,United States,USA,0,North America,self-made finance,38,Financial,TRUE,Real Estate,not inherited,TRUE,TRUE
+Theo and Karl Albrecht,9,1996,1913,Aldi Nord,Relation,groceries,new,0,male,Germany,DEU,2.5E+12,Europe,inherited,9,Non-Traded Sectors,TRUE,"Retail, Restaurant",father,TRUE,TRUE
+S Robson Walton,9,2001,1962,Walmart,relation,retail, new,57,male,United States,USA,1.06E+13,North America,inherited,18.6,Non-Traded Sectors,TRUE,"Retail, Restaurant",father,TRUE,TRUE
+Christy Walton,9,2014,1962,Walmart,relation, retail, new,59,female,United States,USA,0,North America,inherited,36.7,Non-Traded Sectors,TRUE,"Retail, Restaurant",spouse/widow,TRUE,TRUE
+Hans and Gad Rausing,10,1996,1951,Tetra Pak,relation,food packaging,new,0,male,Sweden,SWE,2.88E+11,Europe,inherited,9,Traded Sectors,TRUE,Consumer,father,TRUE,TRUE
+Alice Walton,10,2001,1962,Walmart,relation,retail, new,52,female,United States,USA,1.06E+13,North America,inherited,18.5,Non-Traded Sectors,TRUE,"Retail, Restaurant",father,TRUE,TRUE

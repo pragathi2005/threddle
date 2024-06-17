@@ -1,0 +1,23 @@
+# Age distribution
+plt.figure(figsize=(10, 6))
+sns.histplot(df['age'], bins=30, kde=True)
+plt.title('Age Distribution of Billionaires')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
+
+# Gender distribution
+gender_distribution = df['gender'].value_counts()
+plt.figure(figsize=(8, 5))
+gender_distribution.plot(kind='pie', autopct='%1.1f%%', startangle=140)
+plt.title('Gender Distribution of Billionaires')
+plt.ylabel('')
+plt.show()
+
+# Source of wealth distribution
+source_distribution = df['source_of_wealth'].value_counts()
+plt.figure(figsize=(8, 5))
+source_distribution.plot(kind='pie', autopct='%1.1f%%', startangle=140)
+plt.title('Source of Wealth Distribution')
+plt.ylabel('')
+plt.show()
